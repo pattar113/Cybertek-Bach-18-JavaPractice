@@ -46,11 +46,12 @@ public class ArrayList_Methods {
 
 for(String each : list2){
     System.out.println(each);
+
 }
 
-
-
-
+//A,B,E,C,D
+list2.set(3,"F");
+        System.out.println(list2);
 
     }
 

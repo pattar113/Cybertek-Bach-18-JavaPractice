@@ -16,7 +16,7 @@ public class Uniques {
             char ch2 = str.charAt(j);
 
 
-            int count = 0;// to count the occurrence of the character
+            int count = 0;// to count the uccurance of the character
 
             for (int i = 0; i <= str.length() - 1; i++) {
                 char ch = str.charAt(i);

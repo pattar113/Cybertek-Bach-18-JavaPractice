@@ -52,6 +52,14 @@ for(String each : list2){
 //A,B,E,C,D
 list2.set(3,"F");
         System.out.println(list2);
+      
+      boolean r1 = list2.remove("A");
+      System.out.println(list2);
+      boolean r2 =list2.remove("Z);
+                               
+       System.out.println(r2);
+        System.out.println(list2.size());                       
+                               
 
     }
 
